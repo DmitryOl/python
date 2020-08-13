@@ -25,31 +25,4 @@ rrdtool.graph(
     # "AREA:test#00FF00:Up times(%)",
     )
 #idat1,UN,0,idat1,IF (замена неопределенного значения на 0)
-
 #1day = 86400
-
-# import cgi
-# import html, sys, codecs
-# 
-# fname = '/home/dmitry/temper/RRD/rand.rrd'
-# # period = day
-
-# result = rrdtool.graph('/home/dmitry/temper/RRDimg/rand.png')
-
-
-
-# sys.stdout = codecs.getwriter("utf-8")(sys.stdout.detach())
-
-# print("Content-Type: text/html\n")
-# print("""<!DOCTYPE HTML>
-#     <html>
-#     <head>
-#     <meta charset="utf-8">
-#     <title> RRD python </title>
-#     </head>
-#     <body>""") 
-
-# print("<h1>RRD в Python!</h1>")
-
-# print("""</body>
-# </html>""")
